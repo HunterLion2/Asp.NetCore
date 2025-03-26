@@ -6,20 +6,20 @@ namespace dotnet_basics.Controllers;
 public class ProductsController : Controller
 {
     // localhost:3000/products
-    public string Index()
+    public ActionResult Index()
     {
-        return "Products/Index";
+        return View();
     }
 
     // localhost:3000/products/list
-    public string List()
+    public ActionResult List()
     {
-        return "Products/List";
+        return View();
     }
 
     // localhost:3000/products/details
-    public string Details()
+    public ActionResult Details()
     {
-        return "Products/Details";
+        return View();
     }
 }

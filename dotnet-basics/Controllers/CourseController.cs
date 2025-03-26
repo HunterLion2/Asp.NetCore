@@ -9,8 +9,16 @@ namespace dotnet_basics.Controllers;
         // localhost:5158/home
         // localhost:5158/home/list => Burada bunu ekleriz.
 
-        public string List() {
-            return "List";
+        public ActionResult Index() {
+            return View();
+        }
+
+        public ActionResult List() {
+            return View();
+        }
+
+        public ActionResult Details() {
+            return View();
         }
 
     }

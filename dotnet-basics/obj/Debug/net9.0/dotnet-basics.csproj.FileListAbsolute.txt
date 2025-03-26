@@ -95,3 +95,4 @@ C:\Users\cozgu\Documents\Asp.NetCore\dotnet-basics\obj\Debug\net9.0\refint\dotne
 C:\Users\cozgu\Documents\Asp.NetCore\dotnet-basics\obj\Debug\net9.0\dotnet-basics.pdb
 C:\Users\cozgu\Documents\Asp.NetCore\dotnet-basics\obj\Debug\net9.0\dotnet-basics.genruntimeconfig.cache
 C:\Users\cozgu\Documents\Asp.NetCore\dotnet-basics\obj\Debug\net9.0\ref\dotnet-basics.dll
+C:\Users\cozgu\Documents\Asp.NetCore\dotnet-basics\obj\Debug\net9.0\dotnet-basics.sourcelink.json
