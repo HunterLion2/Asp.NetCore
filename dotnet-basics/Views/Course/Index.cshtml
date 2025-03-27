@@ -1,1 +1,12 @@
-<h1>Course/Index</h1>
+<h1 class="mb-3">Kurslar</h1>
+
+<div class="row kursla">
+
+    @* @await Html.PartialAsync("~/Views/Home/_CourseCard.cshtml") Bu şekilde de direkt dosyadan istediğimiz yerden de buldurabiliriz. *@
+
+    @await Html.PartialAsync("_CourseCard")
+    @await Html.PartialAsync("_CourseCard")
+    @await Html.PartialAsync("_CourseCard")
+    @await Html.PartialAsync("_CourseCard")
+
+</div>

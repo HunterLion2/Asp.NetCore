@@ -14,9 +14,7 @@ C:\Users\cozgu\Documents\Asp.NetCore\dotnet-basics\obj\Debug\net9.0\dotnet-basic
 C:\Users\cozgu\Documents\Asp.NetCore\dotnet-basics\obj\Debug\net9.0\dotnet-basics.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\cozgu\Documents\Asp.NetCore\dotnet-basics\obj\Debug\net9.0\dotnet-basics.RazorAssemblyInfo.cache
 C:\Users\cozgu\Documents\Asp.NetCore\dotnet-basics\obj\Debug\net9.0\dotnet-basics.RazorAssemblyInfo.cs
-C:\Users\cozgu\Documents\Asp.NetCore\dotnet-basics\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\cozgu\Documents\Asp.NetCore\dotnet-basics\obj\Debug\net9.0\scopedcss\bundle\dotnet-basics.styles.css
-C:\Users\cozgu\Documents\Asp.NetCore\dotnet-basics\obj\Debug\net9.0\scopedcss\projectbundle\dotnet-basics.bundle.scp.css
 C:\Users\cozgu\Documents\Asp.NetCore\dotnet-basics\obj\Debug\net9.0\compressed\lwj3pq00m5-b9sayid5wm.gz
 C:\Users\cozgu\Documents\Asp.NetCore\dotnet-basics\obj\Debug\net9.0\compressed\ymr7anwmfl-61n19gt1b8.gz
 C:\Users\cozgu\Documents\Asp.NetCore\dotnet-basics\obj\Debug\net9.0\compressed\rqbx17wfk5-xtxxf3hu2r.gz
@@ -79,8 +77,6 @@ C:\Users\cozgu\Documents\Asp.NetCore\dotnet-basics\obj\Debug\net9.0\compressed\c
 C:\Users\cozgu\Documents\Asp.NetCore\dotnet-basics\obj\Debug\net9.0\compressed\ml2pmpmojx-muycvpuwrr.gz
 C:\Users\cozgu\Documents\Asp.NetCore\dotnet-basics\obj\Debug\net9.0\compressed\yc9shlk3jh-87fc7y1x7t.gz
 C:\Users\cozgu\Documents\Asp.NetCore\dotnet-basics\obj\Debug\net9.0\compressed\bl0xx4ubjt-mlv21k5csn.gz
-C:\Users\cozgu\Documents\Asp.NetCore\dotnet-basics\obj\Debug\net9.0\compressed\c8n4bgopxp-6n1ze8k8ql.gz
-C:\Users\cozgu\Documents\Asp.NetCore\dotnet-basics\obj\Debug\net9.0\compressed\kv8vqjgsva-6n1ze8k8ql.gz
 C:\Users\cozgu\Documents\Asp.NetCore\dotnet-basics\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\cozgu\Documents\Asp.NetCore\dotnet-basics\obj\Debug\net9.0\staticwebassets.development.json
 C:\Users\cozgu\Documents\Asp.NetCore\dotnet-basics\obj\Debug\net9.0\staticwebassets.build.endpoints.json

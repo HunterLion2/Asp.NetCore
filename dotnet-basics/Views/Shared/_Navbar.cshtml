@@ -1,0 +1,17 @@
+<nav class="navbar navbar-expan-lg bg-warning" data-bs-theme="dark">
+    <div class="container">
+        <a href="/" class="navbar-brand">App</a>
+        <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+                <a class="nav-link active" asp-controller="Home" asp-action="Index">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" asp-controller="Course" asp-action="Index">Course</a>
+            </li>
+            <li class="nav-item">
+                @* href="/products/list" burada href yerine aşşağıda ki işlemide yapabiliriz ikiside aynı işi görür. *@
+                <a class="nav-link" asp-controller="Products" asp-action="Details">Products</a>
+            </li>
+        </ul>
+    </div>
+</nav>

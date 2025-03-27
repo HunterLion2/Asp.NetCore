@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "OZRRSKgxXWJA4cEwISRqjNHASvFyEVLCZGbuCry/QwI=",
+  "Hash": "Dp6AOVHeR/egQXu5/USloAXQ/JpWjGmtD0PgWGwNPlg=",
   "Source": "dotnet-basics",
   "BasePath": "_content/dotnet-basics",
   "Mode": "Default",
@@ -374,27 +374,6 @@
       "OriginalItemSpec": "C:\\Users\\cozgu\\Documents\\Asp.NetCore\\dotnet-basics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\cozgu\\Documents\\Asp.NetCore\\dotnet-basics\\obj\\Debug\\net9.0\\compressed\\c8n4bgopxp-6n1ze8k8ql.gz",
-      "SourceId": "dotnet-basics",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\cozgu\\Documents\\Asp.NetCore\\dotnet-basics\\obj\\Debug\\net9.0\\compressed\\",
-      "BasePath": "_content/dotnet-basics",
-      "RelativePath": "dotnet-basics#[.{fingerprint=6n1ze8k8ql}]?.styles.css.gz",
-      "AssetKind": "All",
-      "AssetMode": "CurrentProject",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\cozgu\\Documents\\Asp.NetCore\\dotnet-basics\\obj\\Debug\\net9.0\\scopedcss\\bundle\\dotnet-basics.styles.css",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "Fingerprint": "qz7rtiyblr",
-      "Integrity": "yvk3dElzmFmvZyGYPc2jtCA78tjUjy/nkU7NYnrLyuU=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\cozgu\\Documents\\Asp.NetCore\\dotnet-basics\\obj\\Debug\\net9.0\\scopedcss\\bundle\\dotnet-basics.styles.css"
-    },
-    {
       "Identity": "C:\\Users\\cozgu\\Documents\\Asp.NetCore\\dotnet-basics\\obj\\Debug\\net9.0\\compressed\\ci09z1mome-o1o13a6vjx.gz",
       "SourceId": "dotnet-basics",
       "SourceType": "Discovered",
@@ -750,27 +729,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\cozgu\\Documents\\Asp.NetCore\\dotnet-basics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
-    },
-    {
-      "Identity": "C:\\Users\\cozgu\\Documents\\Asp.NetCore\\dotnet-basics\\obj\\Debug\\net9.0\\compressed\\kv8vqjgsva-6n1ze8k8ql.gz",
-      "SourceId": "dotnet-basics",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\cozgu\\Documents\\Asp.NetCore\\dotnet-basics\\obj\\Debug\\net9.0\\compressed\\",
-      "BasePath": "_content/dotnet-basics",
-      "RelativePath": "dotnet-basics#[.{fingerprint=6n1ze8k8ql}]!.bundle.scp.css.gz",
-      "AssetKind": "All",
-      "AssetMode": "Reference",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\cozgu\\Documents\\Asp.NetCore\\dotnet-basics\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\dotnet-basics.bundle.scp.css",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "Fingerprint": "qz7rtiyblr",
-      "Integrity": "yvk3dElzmFmvZyGYPc2jtCA78tjUjy/nkU7NYnrLyuU=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\cozgu\\Documents\\Asp.NetCore\\dotnet-basics\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\dotnet-basics.bundle.scp.css"
     },
     {
       "Identity": "C:\\Users\\cozgu\\Documents\\Asp.NetCore\\dotnet-basics\\obj\\Debug\\net9.0\\compressed\\lgp9nneka6-356vix0kms.gz",
@@ -1361,48 +1319,6 @@
       "OriginalItemSpec": "C:\\Users\\cozgu\\Documents\\Asp.NetCore\\dotnet-basics\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\cozgu\\Documents\\Asp.NetCore\\dotnet-basics\\obj\\Debug\\net9.0\\scopedcss\\bundle\\dotnet-basics.styles.css",
-      "SourceId": "dotnet-basics",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\cozgu\\Documents\\Asp.NetCore\\dotnet-basics\\obj\\Debug\\net9.0\\scopedcss\\bundle\\",
-      "BasePath": "_content/dotnet-basics",
-      "RelativePath": "dotnet-basics#[.{fingerprint}]?.styles.css",
-      "AssetKind": "All",
-      "AssetMode": "CurrentProject",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "6n1ze8k8ql",
-      "Integrity": "7t5d5nbeGDWmqz2nv+TksgTjeAfQOY09rw/c7Tq30QM=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\cozgu\\Documents\\Asp.NetCore\\dotnet-basics\\obj\\Debug\\net9.0\\scopedcss\\bundle\\dotnet-basics.styles.css"
-    },
-    {
-      "Identity": "C:\\Users\\cozgu\\Documents\\Asp.NetCore\\dotnet-basics\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\dotnet-basics.bundle.scp.css",
-      "SourceId": "dotnet-basics",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\cozgu\\Documents\\Asp.NetCore\\dotnet-basics\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\",
-      "BasePath": "_content/dotnet-basics",
-      "RelativePath": "dotnet-basics#[.{fingerprint}]!.bundle.scp.css",
-      "AssetKind": "All",
-      "AssetMode": "Reference",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "6n1ze8k8ql",
-      "Integrity": "7t5d5nbeGDWmqz2nv+TksgTjeAfQOY09rw/c7Tq30QM=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\cozgu\\Documents\\Asp.NetCore\\dotnet-basics\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\dotnet-basics.bundle.scp.css"
-    },
-    {
       "Identity": "C:\\Users\\cozgu\\Documents\\Asp.NetCore\\dotnet-basics\\wwwroot\\css\\site.css",
       "SourceId": "dotnet-basics",
       "SourceType": "Discovered",
@@ -1443,6 +1359,90 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\cozgu\\Documents\\Asp.NetCore\\dotnet-basics\\wwwroot\\img\\1.jpg",
+      "SourceId": "dotnet-basics",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\cozgu\\Documents\\Asp.NetCore\\dotnet-basics\\wwwroot\\",
+      "BasePath": "_content/dotnet-basics",
+      "RelativePath": "img/1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0bs6kjukcu",
+      "Integrity": "zHTUO/u1wLF1JiBRoqgyAwjMms7mVjlrmujUMO+jO18=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\cozgu\\Documents\\Asp.NetCore\\dotnet-basics\\wwwroot\\img\\2.jpg",
+      "SourceId": "dotnet-basics",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\cozgu\\Documents\\Asp.NetCore\\dotnet-basics\\wwwroot\\",
+      "BasePath": "_content/dotnet-basics",
+      "RelativePath": "img/2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "manh9dbqer",
+      "Integrity": "0kLgq+GV9tKGKFFmxlgzacxVjgBeznlSGoZG9cNFxhA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\cozgu\\Documents\\Asp.NetCore\\dotnet-basics\\wwwroot\\img\\3.jpg",
+      "SourceId": "dotnet-basics",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\cozgu\\Documents\\Asp.NetCore\\dotnet-basics\\wwwroot\\",
+      "BasePath": "_content/dotnet-basics",
+      "RelativePath": "img/3#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "15gq8zjpjo",
+      "Integrity": "y0f2dKqgdCHKSy38A+mvw7/lVzU1ZCre/9tl9FA3Y3I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\cozgu\\Documents\\Asp.NetCore\\dotnet-basics\\wwwroot\\img\\4.jpg",
+      "SourceId": "dotnet-basics",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\cozgu\\Documents\\Asp.NetCore\\dotnet-basics\\wwwroot\\",
+      "BasePath": "_content/dotnet-basics",
+      "RelativePath": "img/4#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "g4naumq88y",
+      "Integrity": "cNYT/ZayYPKSJE5rP1fti/Kgw1llDsPpmbV/LWgrhZk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\4.jpg"
     },
     {
       "Identity": "C:\\Users\\cozgu\\Documents\\Asp.NetCore\\dotnet-basics\\wwwroot\\js\\site.js",
@@ -3026,602 +3026,6 @@
       ]
     },
     {
-      "Route": "dotnet-basics.6n1ze8k8ql.bundle.scp.css",
-      "AssetFile": "C:\\Users\\cozgu\\Documents\\Asp.NetCore\\dotnet-basics\\obj\\Debug\\net9.0\\compressed\\kv8vqjgsva-6n1ze8k8ql.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.001855287570"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "538"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"yvk3dElzmFmvZyGYPc2jtCA78tjUjy/nkU7NYnrLyuU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 24 Mar 2025 20:20:48 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"7t5d5nbeGDWmqz2nv+TksgTjeAfQOY09rw/c7Tq30QM=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "6n1ze8k8ql"
-        },
-        {
-          "Name": "label",
-          "Value": "dotnet-basics.bundle.scp.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-7t5d5nbeGDWmqz2nv+TksgTjeAfQOY09rw/c7Tq30QM="
-        }
-      ]
-    },
-    {
-      "Route": "dotnet-basics.6n1ze8k8ql.bundle.scp.css",
-      "AssetFile": "C:\\Users\\cozgu\\Documents\\Asp.NetCore\\dotnet-basics\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\dotnet-basics.bundle.scp.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1131"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"7t5d5nbeGDWmqz2nv+TksgTjeAfQOY09rw/c7Tq30QM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 24 Mar 2025 20:20:48 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "6n1ze8k8ql"
-        },
-        {
-          "Name": "label",
-          "Value": "dotnet-basics.bundle.scp.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-7t5d5nbeGDWmqz2nv+TksgTjeAfQOY09rw/c7Tq30QM="
-        }
-      ]
-    },
-    {
-      "Route": "dotnet-basics.6n1ze8k8ql.bundle.scp.css.gz",
-      "AssetFile": "C:\\Users\\cozgu\\Documents\\Asp.NetCore\\dotnet-basics\\obj\\Debug\\net9.0\\compressed\\kv8vqjgsva-6n1ze8k8ql.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "538"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"yvk3dElzmFmvZyGYPc2jtCA78tjUjy/nkU7NYnrLyuU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 24 Mar 2025 20:20:48 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "6n1ze8k8ql"
-        },
-        {
-          "Name": "label",
-          "Value": "dotnet-basics.bundle.scp.css.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-yvk3dElzmFmvZyGYPc2jtCA78tjUjy/nkU7NYnrLyuU="
-        }
-      ]
-    },
-    {
-      "Route": "dotnet-basics.6n1ze8k8ql.styles.css",
-      "AssetFile": "C:\\Users\\cozgu\\Documents\\Asp.NetCore\\dotnet-basics\\obj\\Debug\\net9.0\\compressed\\c8n4bgopxp-6n1ze8k8ql.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.001855287570"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "538"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"yvk3dElzmFmvZyGYPc2jtCA78tjUjy/nkU7NYnrLyuU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 24 Mar 2025 20:20:48 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"7t5d5nbeGDWmqz2nv+TksgTjeAfQOY09rw/c7Tq30QM=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "6n1ze8k8ql"
-        },
-        {
-          "Name": "label",
-          "Value": "dotnet-basics.styles.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-7t5d5nbeGDWmqz2nv+TksgTjeAfQOY09rw/c7Tq30QM="
-        }
-      ]
-    },
-    {
-      "Route": "dotnet-basics.6n1ze8k8ql.styles.css",
-      "AssetFile": "C:\\Users\\cozgu\\Documents\\Asp.NetCore\\dotnet-basics\\obj\\Debug\\net9.0\\scopedcss\\bundle\\dotnet-basics.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1131"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"7t5d5nbeGDWmqz2nv+TksgTjeAfQOY09rw/c7Tq30QM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 24 Mar 2025 20:20:48 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "6n1ze8k8ql"
-        },
-        {
-          "Name": "label",
-          "Value": "dotnet-basics.styles.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-7t5d5nbeGDWmqz2nv+TksgTjeAfQOY09rw/c7Tq30QM="
-        }
-      ]
-    },
-    {
-      "Route": "dotnet-basics.6n1ze8k8ql.styles.css.gz",
-      "AssetFile": "C:\\Users\\cozgu\\Documents\\Asp.NetCore\\dotnet-basics\\obj\\Debug\\net9.0\\compressed\\c8n4bgopxp-6n1ze8k8ql.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "538"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"yvk3dElzmFmvZyGYPc2jtCA78tjUjy/nkU7NYnrLyuU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 24 Mar 2025 20:20:48 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "6n1ze8k8ql"
-        },
-        {
-          "Name": "label",
-          "Value": "dotnet-basics.styles.css.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-yvk3dElzmFmvZyGYPc2jtCA78tjUjy/nkU7NYnrLyuU="
-        }
-      ]
-    },
-    {
-      "Route": "dotnet-basics.bundle.scp.css",
-      "AssetFile": "C:\\Users\\cozgu\\Documents\\Asp.NetCore\\dotnet-basics\\obj\\Debug\\net9.0\\compressed\\kv8vqjgsva-6n1ze8k8ql.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.001855287570"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "538"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"yvk3dElzmFmvZyGYPc2jtCA78tjUjy/nkU7NYnrLyuU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 24 Mar 2025 20:20:48 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"7t5d5nbeGDWmqz2nv+TksgTjeAfQOY09rw/c7Tq30QM=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-7t5d5nbeGDWmqz2nv+TksgTjeAfQOY09rw/c7Tq30QM="
-        }
-      ]
-    },
-    {
-      "Route": "dotnet-basics.bundle.scp.css",
-      "AssetFile": "C:\\Users\\cozgu\\Documents\\Asp.NetCore\\dotnet-basics\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\dotnet-basics.bundle.scp.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1131"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"7t5d5nbeGDWmqz2nv+TksgTjeAfQOY09rw/c7Tq30QM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 24 Mar 2025 20:20:48 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-7t5d5nbeGDWmqz2nv+TksgTjeAfQOY09rw/c7Tq30QM="
-        }
-      ]
-    },
-    {
-      "Route": "dotnet-basics.bundle.scp.css.gz",
-      "AssetFile": "C:\\Users\\cozgu\\Documents\\Asp.NetCore\\dotnet-basics\\obj\\Debug\\net9.0\\compressed\\kv8vqjgsva-6n1ze8k8ql.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "538"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"yvk3dElzmFmvZyGYPc2jtCA78tjUjy/nkU7NYnrLyuU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 24 Mar 2025 20:20:48 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-yvk3dElzmFmvZyGYPc2jtCA78tjUjy/nkU7NYnrLyuU="
-        }
-      ]
-    },
-    {
-      "Route": "dotnet-basics.styles.css",
-      "AssetFile": "C:\\Users\\cozgu\\Documents\\Asp.NetCore\\dotnet-basics\\obj\\Debug\\net9.0\\compressed\\c8n4bgopxp-6n1ze8k8ql.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.001855287570"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "538"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"yvk3dElzmFmvZyGYPc2jtCA78tjUjy/nkU7NYnrLyuU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 24 Mar 2025 20:20:48 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"7t5d5nbeGDWmqz2nv+TksgTjeAfQOY09rw/c7Tq30QM=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-7t5d5nbeGDWmqz2nv+TksgTjeAfQOY09rw/c7Tq30QM="
-        }
-      ]
-    },
-    {
-      "Route": "dotnet-basics.styles.css",
-      "AssetFile": "C:\\Users\\cozgu\\Documents\\Asp.NetCore\\dotnet-basics\\obj\\Debug\\net9.0\\scopedcss\\bundle\\dotnet-basics.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1131"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"7t5d5nbeGDWmqz2nv+TksgTjeAfQOY09rw/c7Tq30QM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 24 Mar 2025 20:20:48 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-7t5d5nbeGDWmqz2nv+TksgTjeAfQOY09rw/c7Tq30QM="
-        }
-      ]
-    },
-    {
-      "Route": "dotnet-basics.styles.css.gz",
-      "AssetFile": "C:\\Users\\cozgu\\Documents\\Asp.NetCore\\dotnet-basics\\obj\\Debug\\net9.0\\compressed\\c8n4bgopxp-6n1ze8k8ql.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "538"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"yvk3dElzmFmvZyGYPc2jtCA78tjUjy/nkU7NYnrLyuU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 24 Mar 2025 20:20:48 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-yvk3dElzmFmvZyGYPc2jtCA78tjUjy/nkU7NYnrLyuU="
-        }
-      ]
-    },
-    {
       "Route": "favicon.61n19gt1b8.ico",
       "AssetFile": "C:\\Users\\cozgu\\Documents\\Asp.NetCore\\dotnet-basics\\obj\\Debug\\net9.0\\compressed\\ymr7anwmfl-61n19gt1b8.gz",
       "Selectors": [
@@ -3916,6 +3320,334 @@
         {
           "Name": "integrity",
           "Value": "sha256-wfFuuYm+Lh6RbCeeiUqxw334b/hIOkp5j9eokGUM1Y0="
+        }
+      ]
+    },
+    {
+      "Route": "img/1.0bs6kjukcu.jpg",
+      "AssetFile": "C:\\Users\\cozgu\\Documents\\Asp.NetCore\\dotnet-basics\\wwwroot\\img\\1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "74719"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zHTUO/u1wLF1JiBRoqgyAwjMms7mVjlrmujUMO+jO18=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 16:21:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0bs6kjukcu"
+        },
+        {
+          "Name": "label",
+          "Value": "img/1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zHTUO/u1wLF1JiBRoqgyAwjMms7mVjlrmujUMO+jO18="
+        }
+      ]
+    },
+    {
+      "Route": "img/1.jpg",
+      "AssetFile": "C:\\Users\\cozgu\\Documents\\Asp.NetCore\\dotnet-basics\\wwwroot\\img\\1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "74719"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zHTUO/u1wLF1JiBRoqgyAwjMms7mVjlrmujUMO+jO18=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 16:21:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zHTUO/u1wLF1JiBRoqgyAwjMms7mVjlrmujUMO+jO18="
+        }
+      ]
+    },
+    {
+      "Route": "img/2.jpg",
+      "AssetFile": "C:\\Users\\cozgu\\Documents\\Asp.NetCore\\dotnet-basics\\wwwroot\\img\\2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "46079"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0kLgq+GV9tKGKFFmxlgzacxVjgBeznlSGoZG9cNFxhA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 16:21:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0kLgq+GV9tKGKFFmxlgzacxVjgBeznlSGoZG9cNFxhA="
+        }
+      ]
+    },
+    {
+      "Route": "img/2.manh9dbqer.jpg",
+      "AssetFile": "C:\\Users\\cozgu\\Documents\\Asp.NetCore\\dotnet-basics\\wwwroot\\img\\2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "46079"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0kLgq+GV9tKGKFFmxlgzacxVjgBeznlSGoZG9cNFxhA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 16:21:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "manh9dbqer"
+        },
+        {
+          "Name": "label",
+          "Value": "img/2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0kLgq+GV9tKGKFFmxlgzacxVjgBeznlSGoZG9cNFxhA="
+        }
+      ]
+    },
+    {
+      "Route": "img/3.15gq8zjpjo.jpg",
+      "AssetFile": "C:\\Users\\cozgu\\Documents\\Asp.NetCore\\dotnet-basics\\wwwroot\\img\\3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34545"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y0f2dKqgdCHKSy38A+mvw7/lVzU1ZCre/9tl9FA3Y3I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 16:21:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "15gq8zjpjo"
+        },
+        {
+          "Name": "label",
+          "Value": "img/3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-y0f2dKqgdCHKSy38A+mvw7/lVzU1ZCre/9tl9FA3Y3I="
+        }
+      ]
+    },
+    {
+      "Route": "img/3.jpg",
+      "AssetFile": "C:\\Users\\cozgu\\Documents\\Asp.NetCore\\dotnet-basics\\wwwroot\\img\\3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34545"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y0f2dKqgdCHKSy38A+mvw7/lVzU1ZCre/9tl9FA3Y3I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 16:21:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-y0f2dKqgdCHKSy38A+mvw7/lVzU1ZCre/9tl9FA3Y3I="
+        }
+      ]
+    },
+    {
+      "Route": "img/4.g4naumq88y.jpg",
+      "AssetFile": "C:\\Users\\cozgu\\Documents\\Asp.NetCore\\dotnet-basics\\wwwroot\\img\\4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "51744"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cNYT/ZayYPKSJE5rP1fti/Kgw1llDsPpmbV/LWgrhZk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 16:21:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "g4naumq88y"
+        },
+        {
+          "Name": "label",
+          "Value": "img/4.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cNYT/ZayYPKSJE5rP1fti/Kgw1llDsPpmbV/LWgrhZk="
+        }
+      ]
+    },
+    {
+      "Route": "img/4.jpg",
+      "AssetFile": "C:\\Users\\cozgu\\Documents\\Asp.NetCore\\dotnet-basics\\wwwroot\\img\\4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "51744"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cNYT/ZayYPKSJE5rP1fti/Kgw1llDsPpmbV/LWgrhZk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 16:21:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cNYT/ZayYPKSJE5rP1fti/Kgw1llDsPpmbV/LWgrhZk="
         }
       ]
     },
