@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Dp6AOVHeR/egQXu5/USloAXQ/JpWjGmtD0PgWGwNPlg=",
+  "Hash": "S5I1wzroYCajZilEniSY968BkLXzr0Zsu7tWZaPtjLc=",
   "Source": "dotnet-basics",
   "BasePath": "_content/dotnet-basics",
   "Mode": "Default",
@@ -1443,6 +1443,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\4.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\cozgu\\Documents\\Asp.NetCore\\dotnet-basics\\wwwroot\\img\\samsung-s24.jpg",
+      "SourceId": "dotnet-basics",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\cozgu\\Documents\\Asp.NetCore\\dotnet-basics\\wwwroot\\",
+      "BasePath": "_content/dotnet-basics",
+      "RelativePath": "img/samsung-s24#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "e2ph74822r",
+      "Integrity": "JpCt228i4Edi3ClzEXoOsF4s0KVeACHT+wz9j1r+Gw0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\samsung-s24.jpg"
     },
     {
       "Identity": "C:\\Users\\cozgu\\Documents\\Asp.NetCore\\dotnet-basics\\wwwroot\\js\\site.js",
@@ -3648,6 +3669,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-cNYT/ZayYPKSJE5rP1fti/Kgw1llDsPpmbV/LWgrhZk="
+        }
+      ]
+    },
+    {
+      "Route": "img/samsung-s24.e2ph74822r.jpg",
+      "AssetFile": "C:\\Users\\cozgu\\Documents\\Asp.NetCore\\dotnet-basics\\wwwroot\\img\\samsung-s24.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "74828"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JpCt228i4Edi3ClzEXoOsF4s0KVeACHT+wz9j1r+Gw0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 29 Mar 2025 09:08:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e2ph74822r"
+        },
+        {
+          "Name": "label",
+          "Value": "img/samsung-s24.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JpCt228i4Edi3ClzEXoOsF4s0KVeACHT+wz9j1r+Gw0="
+        }
+      ]
+    },
+    {
+      "Route": "img/samsung-s24.jpg",
+      "AssetFile": "C:\\Users\\cozgu\\Documents\\Asp.NetCore\\dotnet-basics\\wwwroot\\img\\samsung-s24.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "74828"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JpCt228i4Edi3ClzEXoOsF4s0KVeACHT+wz9j1r+Gw0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 29 Mar 2025 09:08:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JpCt228i4Edi3ClzEXoOsF4s0KVeACHT+wz9j1r+Gw0="
         }
       ]
     },

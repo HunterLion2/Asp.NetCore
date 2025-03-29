@@ -12,9 +12,24 @@ public class HomeController: Controller {
     // Burada ActionResult değeri ile return ettiğimiz değerin bir dosya olduğunu anlar.
 
     public ActionResult Index() {
-        return View(); // View/Home/Index.cshtml
+        
          
         // Burada ki View değeri klasörlerimizdeki Views değeridir.
+
+
+        int sayi1 = 10;
+        int sayi2 = 20;
+
+        sayi1 = 30;
+        sayi2 = 40;
+
+        int toplam = sayi1 + sayi2;
+
+        ViewData["Toplam"] = toplam; // Burada ViewData'nın içerisine girilen değer bir (key) değeridir. Bu değeri bu Controller değerinin bağlandığı bir html de yine ViewData diyip içerisine key değerini girerek çağırabiliriz.
+
+        return View(); // View/Home/Index.cshtml
+
+
     }
 
     // localhost:5158/home/about => Burada bunu ekleriz.

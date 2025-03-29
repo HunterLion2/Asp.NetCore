@@ -927,6 +927,88 @@
       ]
     },
     {
+      "Route": "img/samsung-s24.e2ph74822r.jpg",
+      "AssetFile": "img/samsung-s24.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "74828"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JpCt228i4Edi3ClzEXoOsF4s0KVeACHT+wz9j1r+Gw0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 29 Mar 2025 09:08:34 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e2ph74822r"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JpCt228i4Edi3ClzEXoOsF4s0KVeACHT+wz9j1r+Gw0="
+        },
+        {
+          "Name": "label",
+          "Value": "img/samsung-s24.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "img/samsung-s24.jpg",
+      "AssetFile": "img/samsung-s24.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "74828"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JpCt228i4Edi3ClzEXoOsF4s0KVeACHT+wz9j1r+Gw0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 29 Mar 2025 09:08:34 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JpCt228i4Edi3ClzEXoOsF4s0KVeACHT+wz9j1r+Gw0="
+        }
+      ]
+    },
+    {
       "Route": "js/site.js",
       "AssetFile": "js/site.js.gz",
       "Selectors": [

@@ -25,6 +25,10 @@
       "PackagePath": "staticwebassets\\img\\4.jpg"
     },
     {
+      "Id": "C:\\Users\\cozgu\\Documents\\Asp.NetCore\\dotnet-basics\\wwwroot\\img\\samsung-s24.jpg",
+      "PackagePath": "staticwebassets\\img\\samsung-s24.jpg"
+    },
+    {
       "Id": "C:\\Users\\cozgu\\Documents\\Asp.NetCore\\dotnet-basics\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
