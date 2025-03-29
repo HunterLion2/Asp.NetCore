@@ -1,4 +1,5 @@
 
+using dotnet_basics.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace dotnet_basics.Controllers;
@@ -45,14 +46,20 @@ public class CourseController : Controller
 
     public ActionResult Details()
     {
-        // string kursAdi = "Django Kursu";
-        int kursSaati = 40;
-        // bool yayindami = true;
-        string[] kursAdlari = ["Javascript Kursu", "React Kursu"];
+        // // string kursAdi = "Django Kursu";
+        // int kursSaati = 40;
+        // // bool yayindami = true;
+        // string[] kursAdlari = ["Javascript Kursu", "React Kursu"];
+        // ViewData["kursSaati"] = kursSaati;
 
-        ViewData["kursSaati"] = kursSaati;
+        // return View(kursAdlari);
 
-        return View(kursAdlari);
+        Course kurs1 = new Course();
+        kurs1.Title = "Django Kursu";
+        kurs1.Image = "1.jpg";
+
+        return View(kurs1);
+
     }
 
 }
