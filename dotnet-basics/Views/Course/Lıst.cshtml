@@ -3,39 +3,24 @@
 <h1>Course/List</h1>
 
 <div class="row">
-    
-    @foreach(Course kurs in Model) {
-    <div class="col">
-        <div class="card">
-            <img src="~/img/@kurs.Image" class="card-img-top" alt="">
-            <div class="card-body">
-                <h5 class="card-title">@kurs.Title</h5>
-                <a href="#" class="card-link">İncele</a>
+
+    @foreach (Course kurs in Model)
+    {
+
+        @if (kurs.IsActive)
+        {
+            <div class="col">
+                <div class="card">
+                    <img src="~/img/@kurs.Image" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">@kurs.Title</h5>
+                        <a href="#" class="card-link">İncele</a>
+                    </div>
+                </div>
             </div>
-        </div>
-    </div> 
+        }
+
     }
 
-    
 
-    @* <div class="col">
-        <div class="card">
-            <img src="~/img/@Model[1].Image" class="card-img-top" alt="">
-            <div class="card-body">
-                <h5 class="card-title">@Model[1].Title</h5>
-                <p class="card-text">@ViewData["kursAciklama2"]</p>
-                <a href="#" class="card-link">İncele</a>
-            </div>
-        </div>
-    </div>
-    <div class="col">
-        <div class="card">
-            <img src="~/img/@Model[2].Image" class="card-img-top" alt="">
-            <div class="card-body">
-                <h5 class="card-title">@Model[2].Title</h5>
-                <p class="card-text">@ViewData["kursAciklama2"]</p>
-                <a href="#" class="card-link">İncele</a>
-            </div>
-        </div>
-    </div> *@
 </div>

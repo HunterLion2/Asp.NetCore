@@ -47,6 +47,7 @@ public class ProductsController : Controller
         urun1.ÜrünFiyat = 7000;
         urun1.ÜrünResim = "samsung-s24.jpg";
         urun1.ÜrünSatıstamı = false;
+        urun1.StokAdedi = 100;
 
         return View(urun1); // Burada bu şekilde View'in içerisine bu değeri yazdığımız zaman o zaman bu değeri "Details" fonksiyonu beklemeye başlar.
     }

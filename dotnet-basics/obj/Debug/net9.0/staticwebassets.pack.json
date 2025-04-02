@@ -25,6 +25,22 @@
       "PackagePath": "staticwebassets\\img\\4.jpg"
     },
     {
+      "Id": "C:\\Users\\cozgu\\Documents\\Asp.NetCore\\dotnet-basics\\wwwroot\\img\\i1.png",
+      "PackagePath": "staticwebassets\\img\\i1.png"
+    },
+    {
+      "Id": "C:\\Users\\cozgu\\Documents\\Asp.NetCore\\dotnet-basics\\wwwroot\\img\\i2.png",
+      "PackagePath": "staticwebassets\\img\\i2.png"
+    },
+    {
+      "Id": "C:\\Users\\cozgu\\Documents\\Asp.NetCore\\dotnet-basics\\wwwroot\\img\\i3.png",
+      "PackagePath": "staticwebassets\\img\\i3.png"
+    },
+    {
+      "Id": "C:\\Users\\cozgu\\Documents\\Asp.NetCore\\dotnet-basics\\wwwroot\\img\\i4.png",
+      "PackagePath": "staticwebassets\\img\\i4.png"
+    },
+    {
       "Id": "C:\\Users\\cozgu\\Documents\\Asp.NetCore\\dotnet-basics\\wwwroot\\img\\samsung-s24.jpg",
       "PackagePath": "staticwebassets\\img\\samsung-s24.jpg"
     },

@@ -7,6 +7,7 @@
         <img src="~/img/@Model.ÜrünResim" alt="" class="img-fluid" />
     </div>
     <div class="col-8">
+
         <h1>@Model.ÜrünBaslık</h1>
         <p>
             @Model.ÜrünFiyat
@@ -14,8 +15,19 @@
         <p>
             @Model.ÜrünResim
         </p>
-        <p>
-            @Model.ÜrünSatıstamı
-        </p>
+
+        @if(Model.ÜrünSatıstamı) {
+            @if(Model.StokAdedi > 0) {
+                <p>
+                    Satışta
+                </p>   
+            } else {
+                <p> Stok Yeterli Değil </p>
+            }
+        }
+        else {
+            <p> Satışta Değil </p>
+        }
+        
     </div>
 </div>

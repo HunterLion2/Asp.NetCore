@@ -48,20 +48,26 @@ public class CourseController : Controller
         Course kurs1 = new Course
         {
             Title = "Javascript Kursu",
-            Image = "1.jpg"
+            Image = "1.jpg",
+            IsActive = true
+            
         };
 
         Course kurs2 = new Course
         {
             Title = "React Kursu",
-            Image = "2.jpg"
+            Image = "2.jpg",
+            IsActive = false
         };
 
         Course kurs3 = new Course
         {
             Title = "Angular Kursu",
-            Image = "3.jpg"
+            Image = "3.jpg",
+            IsActive = true
         };
+
+        
 
         // Burada kullanılan listeleme yapısı dışına başka bir yapıda kullanılabilir.
 

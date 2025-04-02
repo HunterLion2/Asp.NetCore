@@ -13,5 +13,6 @@ namespace dotnet_basics.Models;
 
      public bool ÜrünSatıstamı { get; set; }
      
+     public int StokAdedi { get; set; }
 
     }

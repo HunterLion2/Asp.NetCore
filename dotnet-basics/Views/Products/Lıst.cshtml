@@ -15,6 +15,12 @@
                     <div class="card-body">
                         <h5 class="card-title">@urun.ÜrünBaslık</h5>
                         <p class="card-text">@urun.ÜrünAcıklama</p>
+                        
+                        @if(urun.ÜrünSatıstamı) {
+                            <p>Ürün Satışta</p>
+                        } else {
+                            <p>Ürün Satışta Değil</p>
+                        }
                         <button class="btn btn-primary btn-sm">Detay</button>
                     </div>
                 </div>
