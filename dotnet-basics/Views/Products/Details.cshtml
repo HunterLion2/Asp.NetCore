@@ -1,19 +1,21 @@
+@model Product
+
 <h1>Products/Details</h1>
 
 <div class="row">
     <div class="col-4">
-        <img src="~/img/@ViewData["urunResim"]" alt="" class="img-fluid" />
+        <img src="~/img/@Model.ÜrünResim" alt="" class="img-fluid" />
     </div>
     <div class="col-8">
-        <h1>@ViewData["urunBaslik"]</h1>
+        <h1>@Model.ÜrünBaslık</h1>
         <p>
-            @ViewData["urunAciklama"]
+            @Model.ÜrünFiyat
         </p>
         <p>
-            @ViewData["urunFiyat"]
+            @Model.ÜrünResim
         </p>
         <p>
-            @ViewData["urunSatistami"]
+            @Model.ÜrünSatıstamı
         </p>
     </div>
 </div>

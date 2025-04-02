@@ -1,1 +1,60 @@
-    <h1>Product/Lıst</h1>
+@model List<Product>
+
+<h1>Product/Lıst</h1>
+
+<div class="row">
+
+    @foreach(Product urun in Model) {
+        <div class="col-6"> 
+        <div class="card mb-3">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="~/img/@urun.ÜrünResim" alt="" class="img-fluid rounded-start">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">@urun.ÜrünBaslık</h5>
+                        <p class="card-text">@urun.ÜrünAcıklama</p>
+                        <button class="btn btn-primary btn-sm">Detay</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    }
+
+    
+
+    @* <div class="col-6">
+        <div class="card mb-3">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="~/img/@Model[1].ÜrünResim" alt="" class="img-fluid rounded-start">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">@Model[1].ÜrünBaslık</h5>
+                        <p class="card-text">@Model[1].ÜrünAcıklama</p>
+                        <button class="btn btn-primary btn-sm">Detay</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-6">
+        <div class="card mb-3">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="~/img/@Model[2].ÜrünResim" alt="" class="img-fluid rounded-start">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">@Model[2].ÜrünBaslık</h5>
+                        <p class="card-text">@Model[2].ÜrünAcıklama</p>
+                        <button class="btn btn-primary btn-sm">Detay</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> *@
+</div>

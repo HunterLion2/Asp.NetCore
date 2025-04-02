@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cozgu\\Documents\\Asp.NetCore\\dotnet-basics\\dotnet-basics.csproj": {}
+    "/Users/HunterLion/Downloads/Asp.NetCore-main/dotnet-basics/dotnet-basics.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cozgu\\Documents\\Asp.NetCore\\dotnet-basics\\dotnet-basics.csproj": {
+    "/Users/HunterLion/Downloads/Asp.NetCore-main/dotnet-basics/dotnet-basics.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cozgu\\Documents\\Asp.NetCore\\dotnet-basics\\dotnet-basics.csproj",
+        "projectUniqueName": "/Users/HunterLion/Downloads/Asp.NetCore-main/dotnet-basics/dotnet-basics.csproj",
         "projectName": "dotnet-basics",
-        "projectPath": "C:\\Users\\cozgu\\Documents\\Asp.NetCore\\dotnet-basics\\dotnet-basics.csproj",
-        "packagesPath": "C:\\Users\\cozgu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cozgu\\Documents\\Asp.NetCore\\dotnet-basics\\obj\\",
+        "projectPath": "/Users/HunterLion/Downloads/Asp.NetCore-main/dotnet-basics/dotnet-basics.csproj",
+        "packagesPath": "/Users/HunterLion/.nuget/packages/",
+        "outputPath": "/Users/HunterLion/Downloads/Asp.NetCore-main/dotnet-basics/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\cozgu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/HunterLion/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -68,7 +62,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

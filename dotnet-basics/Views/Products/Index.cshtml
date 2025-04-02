@@ -1,3 +1,16 @@
 <!-- Burada yazdığımız değer ile aşşağıya yazıcağımız değerlerin hepsi Shared içerisindeki Layout içerisindeki @RenderBody() ile bağlanmış olur. -->
 
+@model string[]
+
 <h1>Products/Index</h1>
+
+<!-- Burada ki foreach değerinde (in) değerinden sonra yazılan değer buraya çağırdığımız model üzerinden gelen bilgilerdir. -->
+<!-- En başa yazmış olduğumuz string değeri for döngüsüne sokulacak olan değerin hangi türe ait olduğunu belirtiriz. -->
+<ul>
+    @foreach(string kurs in Model) {
+        <!-- Burada ki kurs değerini de "et" işareti ile çağırırız. -->
+        <li>@kurs</li>
+    }
+</ul>
+
+

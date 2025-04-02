@@ -7,6 +7,8 @@ public class CourseController : Controller
 {
 
 
+
+
     // localhost:5158/home
     // localhost:5158/home/list => Burada bunu ekleriz.
 
@@ -23,25 +25,54 @@ public class CourseController : Controller
         // string kursAciklama1 = "Javascript Kurs Açıklaması";
         // string kursAciklama2 = "React Kurs Açıklaması";
 
-        string[] kursAdlari = ["Javascript Kursu", "React Kursu"];
-        string[] kursAciklamalari = ["Javascript Kurs Açıklaması", "React Kurs Açıklaması"];
-        string[] kursResimleri = ["1.jpg", "2.jpg"];
+        // string[] kursAdlari = ["Javascript Kursu", "React Kursu"];
+        // string[] kursAciklamalari = ["Javascript Kurs Açıklaması", "React Kurs Açıklaması"];
+        // string[] kursResimleri = ["1.jpg", "2.jpg"];
 
-        ViewData["kursAdi1"] = kursAdlari[0]; // Javascript Kursu
-        ViewData["kursAdi2"] = kursAdlari[1]; // React Kursu
+        // ViewData["kursAdi1"] = kursAdlari[0]; // Javascript Kursu
+        // ViewData["kursAdi2"] = kursAdlari[1]; // React Kursu
 
-        ViewData["kursAciklama1"] = kursAciklamalari[0]; // Javascript Kurs Açıklaması
-        ViewData["kursAciklama2"] = kursAciklamalari[1]; // React Kurs Açıklaması
+        // ViewData["kursAciklama1"] = kursAciklamalari[0]; // Javascript Kurs Açıklaması
+        // ViewData["kursAciklama2"] = kursAciklamalari[1]; // React Kurs Açıklaması
 
-        ViewData["kursResim1"] = kursResimleri[0]; // 1.jpg
-        ViewData["kursResim2"] = kursResimleri[1]; // 2.jpg
+        // ViewData["kursResim1"] = kursResimleri[0]; // 1.jpg
+        // ViewData["kursResim2"] = kursResimleri[1]; // 2.jpg
 
         // ViewData["kursAdlari"] = kursAdlari;
         // ViewData["kursAciklamalari"] = kursAciklamalari;
         // ViewData["kursResimleri"] = kursResimleri;
         // @(((string[])ViewData["kursAdlari"])[0])
 
-        return View();
+
+        // Biz zaten buradaki değerleri model'de oluşturduğumuz için bu şekilde çağırabiliriz.
+        Course kurs1 = new Course
+        {
+            Title = "Javascript Kursu",
+            Image = "1.jpg"
+        };
+
+        Course kurs2 = new Course
+        {
+            Title = "React Kursu",
+            Image = "2.jpg"
+        };
+
+        Course kurs3 = new Course
+        {
+            Title = "Angular Kursu",
+            Image = "3.jpg"
+        };
+
+        // Burada kullanılan listeleme yapısı dışına başka bir yapıda kullanılabilir.
+
+        // Course[] kurslar = [kurs1, kurs2, kurs3];
+
+        // Burada aşşağıda olduğu gibi de listeleme biçimi kullanılabilir.
+        List<Course> kurslar = new List<Course> {
+            kurs1, kurs2, kurs3
+        };
+
+        return View(kurslar);
     }
 
     public ActionResult Details()
