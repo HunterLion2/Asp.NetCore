@@ -5,10 +5,6 @@ using Microsoft.AspNetCore.Mvc;
 namespace dotnet_basics.Controllers;
 public class CourseController : Controller
 {
-
-
-
-
     // localhost:5158/home
     // localhost:5158/home/list => Burada bunu ekleriz.
 
@@ -67,8 +63,6 @@ public class CourseController : Controller
             IsActive = true
         };
 
-        
-
         // Burada kullanılan listeleme yapısı dışına başka bir yapıda kullanılabilir.
 
         // Course[] kurslar = [kurs1, kurs2, kurs3];
@@ -96,7 +90,5 @@ public class CourseController : Controller
         kurs1.Image = "1.jpg";
 
         return View(kurs1);
-
     }
-
 }
