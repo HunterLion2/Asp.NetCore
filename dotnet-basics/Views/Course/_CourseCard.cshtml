@@ -5,7 +5,11 @@
             <img src="~/img/@Model.Image" alt="" class="card-img-top">
             <h5 class="card-title">@Model.Title</h5>
             <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit, quia.</p>
+<<<<<<< HEAD
             <a asp-controller="Course" asp-action= "Details" asp-route-id= "@Model.Id" class="btn btn-outline-danger">İncele</a>
+=======
+            <a asp-controller="Course" asp-action= "Details" asp-route= "@Model.Id" class="btn btn-outline-danger">İncele</a>
+>>>>>>> 182b25f306065cefe49ca8504cb424501c403bde
             @* <a href="/Course/Details/@Model.Id" class="btn btn-outline-danger">İncele</a>  Buradaki hrefte ki yazım şekli ile yukarıdaki aynı işi görür. *@
         </div>
     </div>
