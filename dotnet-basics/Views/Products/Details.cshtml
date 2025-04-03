@@ -1,33 +1,16 @@
 @model Product
 
-<h1>Products/Details</h1>
+<h1>Details</h1>
 
-<div class="row">
-    <div class="col-4">
-        <img src="~/img/@Model.ÜrünResim" alt="" class="img-fluid" />
+<div class="row justify-content-start">
+    <div class="card">
+        <div class="col-3">
+            <img src="~/img/@Model.Image" class="card-img-top" alt="">
+        </div>
+        <div class="col-9">
+                <h5>@Model.Title</h5>
+                <p>@Model.Description</p>
+        </div>
     </div>
-    <div class="col-8">
 
-        <h1>@Model.ÜrünBaslık</h1>
-        <p>
-            @Model.ÜrünFiyat
-        </p>
-        <p>
-            @Model.ÜrünResim
-        </p>
-
-        @if(Model.ÜrünSatıstamı) {
-            @if(Model.StokAdedi > 0) {
-                <p>
-                    Satışta
-                </p>   
-            } else {
-                <p> Stok Yeterli Değil </p>
-            }
-        }
-        else {
-            <p> Satışta Değil </p>
-        }
-        
-    </div>
 </div>

@@ -4,32 +4,20 @@
 
 <div class="row">
 
-    @foreach(Product urun in Model) {
-        <div class="col-6"> 
-        <div class="card mb-3">
-            <div class="row">
-                <div class="col-md-4">
-                    <img src="~/img/@urun.ÜrünResim" alt="" class="img-fluid rounded-start">
-                </div>
-                <div class="col-md-8">
-                    <div class="card-body">
-                        <h5 class="card-title">@urun.ÜrünBaslık</h5>
-                        <p class="card-text">@urun.ÜrünAcıklama</p>
-                        
-                        @if(urun.ÜrünSatıstamı) {
-                            <p>Ürün Satışta</p>
-                        } else {
-                            <p>Ürün Satışta Değil</p>
-                        }
-                        <button class="btn btn-primary btn-sm">Detay</button>
-                    </div>
+    @foreach (Product urun in Model)
+    {
+            <div class="col-md-3">
+                <div class="card shadow rounded-4 p-2">
+                    <img class="" style="" src="~/img/@urun.Image" alt="Ürün Resmi">
+                    <h1 class="my-2 card-title">@urun.Title</h1>
+                    <p class="my-2">@urun.Description</p>
+                    <a class="btn btn-outline-danger text-center" asp-controller="Products" asp-action="Details"
+                        asp-route-id="@urun.Id">Detay</a>
                 </div>
             </div>
-        </div>
-        </div>
     }
 
-    
+
 
     @* <div class="col-6">
         <div class="card mb-3">

@@ -1,16 +1,31 @@
 <!-- Burada yazdığımız değer ile aşşağıya yazıcağımız değerlerin hepsi Shared içerisindeki Layout içerisindeki RenderBody() ile bağlanmış olur. -->
 
-@model string[]
+@model List<Product>
 
-<h1>Products/Index</h1>
+<div class="d-flex justify-content-between align-items-center">
+    <h1 class="h3 mb-3">Products</h1>
+    <a class="btn btn-outline-danger" asp-controller="Products" asp-action="Lıst">Tüm Ürünler</a>
+</div>
 
 <!-- Burada ki foreach değerinde (in) değerinden sonra yazılan değer buraya çağırdığımız model üzerinden gelen bilgilerdir. -->
 <!-- En başa yazmış olduğumuz string değeri for döngüsüne sokulacak olan değerin hangi türe ait olduğunu belirtiriz. -->
-<ul>
-    @foreach(string kurs in Model) {
-        <!-- Burada ki kurs değerini de "et" işareti ile çağırırız. -->
-        <li>@kurs</li>
+
+<div class="row">
+    @foreach (Product kurs in Model)
+    {
+        @if (kurs.IsOnSale)
+        {
+            <div class="col-md-3">
+                <div class="card shadow rounded-4 p-2">
+                    <img class="" style="" src="~/img/@kurs.Image" alt="Ürün Resmi">
+                    <h1 class="my-2 card-title">@kurs.Title</h1>
+                    <p class="my-2">@kurs.Description</p>
+                    <a class="btn btn-outline-danger text-center" asp-controller="Products" asp-action="Details"
+                        asp-route-id="@kurs.Id">Detay</a>
+                </div>
+            </div>
+        }
+
+
     }
-</ul>
-
-
+</div>
