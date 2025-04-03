@@ -1,23 +1,18 @@
 @model List<Course>
 
-<h1>Course/List</h1>
+    <h1 class="mb-3 h3">Tüm Kurslar</h1>
 
 <div class="row">
 
-    @foreach (Course kurs in Model)
+    @foreach (Course course in Model)
     {
 
-        @if (kurs.IsActive)
+        @if (course.IsActive)
         {
-            <div class="col">
-                <div class="card">
-                    <img src="~/img/@kurs.Image" class="card-img-top" alt="">
-                    <div class="card-body">
-                        <h5 class="card-title">@kurs.Title</h5>
-                        <a href="#" class="card-link">İncele</a>
-                    </div>
-                </div>
+            <div class="col-md-3">
+                @await Html.PartialAsync("_CourseCard", course)
             </div>
+            
         }
     }
 </div>

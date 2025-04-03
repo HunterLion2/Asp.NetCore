@@ -10,7 +10,65 @@ public class CourseController : Controller
 
     public ActionResult Index()
     {
-        return View();
+
+        Course kurs1 = new Course
+        {
+            Title = "Javascript Kursu",
+            Image = "1.jpg",
+            IsActive = true,
+            IsHome = true            
+        };
+
+        Course kurs2 = new Course
+        {
+            Title = "React Kursu",
+            Image = "2.jpg",
+            IsActive = true,
+            IsHome = true            
+        };
+
+        Course kurs3 = new Course
+        {
+            Title = "Angular Kursu",
+            Image = "3.jpg",
+            IsActive = true,
+            IsHome = false            
+        };
+
+        Course kurs4 = new Course
+        {
+            Title = "Angular Kursu",
+            Image = "4.jpg",
+            IsActive = true,
+            IsHome = false            
+        };
+
+        Course kurs5 = new Course
+        {
+            Title = "Angular Kursu",
+            Image = "4.jpg",
+            IsActive = true,
+            IsHome = false            
+        };
+
+        Course kurs6 = new Course
+        {
+            Title = "Angular Kursu",
+            Image = "4.jpg",
+            IsActive = true,
+            IsHome = false            
+        };
+
+        // Burada kullanılan listeleme yapısı dışına başka bir yapıda kullanılabilir.
+
+        // Course[] kurslar = [kurs1, kurs2, kurs3];
+
+        // Burada aşşağıda olduğu gibi de listeleme biçimi kullanılabilir.
+        List<Course> kurslar = new List<Course> {
+            kurs1, kurs2, kurs3, kurs4, kurs5, kurs6
+        };
+
+        return View(kurslar);
     }
 
     public ActionResult List()

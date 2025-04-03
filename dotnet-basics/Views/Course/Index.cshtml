@@ -1,12 +1,24 @@
-<h1 class="mb-3">Kurslar</h1>
+@model List<Course>
 
-<div class="row kurslar">
+<div class="d-flex justify-content-between align-items-center">
+    <h1 class="mb-3 h3">Kurslar</h1>
+    <a class="btn btn-outline-danger" asp-controller="Course" asp-action="List">Tüm Kurslar</a>
+</div>
+
+
+
+<div class="row">
 
     @* @await Html.PartialAsync("~/Views/Home/_CourseCard.cshtml") Bu şekilde de direkt dosyadan istediğimiz yerden de buldurabiliriz. *@
 
-    @await Html.PartialAsync("_CourseCard")
-    @await Html.PartialAsync("_CourseCard")
-    @await Html.PartialAsync("_CourseCard")
-    @await Html.PartialAsync("_CourseCard")
+    @foreach(Course course in Model) {
+
+        if(course.IsHome) {
+            <div class="col-md-4">
+                @await Html.PartialAsync("_CourseCard", course)
+            </div>
+        }
+        
+    }
 
 </div>
