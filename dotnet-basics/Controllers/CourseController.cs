@@ -5,69 +5,22 @@ using Microsoft.AspNetCore.Mvc;
 namespace dotnet_basics.Controllers;
 public class CourseController : Controller
 {
+
+
+    List<Course> kurslar = [
+        new Course {Id = 1, Title = "Javascript Kursu",Image = "1.jpg",IsActive = true,IsHome = true},
+        new Course {Id = 2, Title = "Javascript Kursu",Image = "1.jpg",IsActive = true,IsHome = true},
+        new Course {Id = 3, Title = "Javascript Kursu",Image = "1.jpg",IsActive = true,IsHome = true},
+        new Course {Id = 4, Title = "Javascript Kursu",Image = "1.jpg",IsActive = true,IsHome = true},
+        new Course {Id = 5, Title = "Javascript Kursu",Image = "1.jpg",IsActive = true,IsHome = true},
+        new Course {Id = 6, Title = "Javascript Kursu",Image = "1.jpg",IsActive = true,IsHome = true}
+    ];
+
     // localhost:5158/home
     // localhost:5158/home/list => Burada bunu ekleriz.
-
+    
     public ActionResult Index()
     {
-
-        Course kurs1 = new Course
-        {
-            Title = "Javascript Kursu",
-            Image = "1.jpg",
-            IsActive = true,
-            IsHome = true            
-        };
-
-        Course kurs2 = new Course
-        {
-            Title = "React Kursu",
-            Image = "2.jpg",
-            IsActive = true,
-            IsHome = true            
-        };
-
-        Course kurs3 = new Course
-        {
-            Title = "Angular Kursu",
-            Image = "3.jpg",
-            IsActive = true,
-            IsHome = false            
-        };
-
-        Course kurs4 = new Course
-        {
-            Title = "Angular Kursu",
-            Image = "4.jpg",
-            IsActive = true,
-            IsHome = false            
-        };
-
-        Course kurs5 = new Course
-        {
-            Title = "Angular Kursu",
-            Image = "4.jpg",
-            IsActive = true,
-            IsHome = false            
-        };
-
-        Course kurs6 = new Course
-        {
-            Title = "Angular Kursu",
-            Image = "4.jpg",
-            IsActive = true,
-            IsHome = false            
-        };
-
-        // Burada kullanılan listeleme yapısı dışına başka bir yapıda kullanılabilir.
-
-        // Course[] kurslar = [kurs1, kurs2, kurs3];
-
-        // Burada aşşağıda olduğu gibi de listeleme biçimi kullanılabilir.
-        List<Course> kurslar = new List<Course> {
-            kurs1, kurs2, kurs3, kurs4, kurs5, kurs6
-        };
-
         return View(kurslar);
     }
 
@@ -97,43 +50,15 @@ public class CourseController : Controller
         // ViewData["kursResimleri"] = kursResimleri;
         // @(((string[])ViewData["kursAdlari"])[0])
 
-
-        // Biz zaten buradaki değerleri model'de oluşturduğumuz için bu şekilde çağırabiliriz.
-        Course kurs1 = new Course
-        {
-            Title = "Javascript Kursu",
-            Image = "1.jpg",
-            IsActive = true
-            
-        };
-
-        Course kurs2 = new Course
-        {
-            Title = "React Kursu",
-            Image = "2.jpg",
-            IsActive = false
-        };
-
-        Course kurs3 = new Course
-        {
-            Title = "Angular Kursu",
-            Image = "3.jpg",
-            IsActive = true
-        };
-
         // Burada kullanılan listeleme yapısı dışına başka bir yapıda kullanılabilir.
 
         // Course[] kurslar = [kurs1, kurs2, kurs3];
 
-        // Burada aşşağıda olduğu gibi de listeleme biçimi kullanılabilir.
-        List<Course> kurslar = new List<Course> {
-            kurs1, kurs2, kurs3
-        };
 
         return View(kurslar);
     }
 
-    public ActionResult Details()
+    public ActionResult Details(int id)
     {
         // // string kursAdi = "Django Kursu";
         // int kursSaati = 40;
@@ -143,10 +68,11 @@ public class CourseController : Controller
 
         // return View(kursAdlari);
 
-        Course kurs1 = new Course();
-        kurs1.Title = "Django Kursu";
-        kurs1.Image = "1.jpg";
+        Course? kurs = kurslar.Where(a => a.Id == id).FirstOrDefault();
 
-        return View(kurs1);
+        // Burada Where değeri bir döndü gibidir yukarıdaki kurslar’ın içerisindeki tüm değerlerin adını “a” olarak ayarladık
+        // sonrada a’nın Id değeri dışarıdan gelene ilk eşit olanı getir dedik buranın türkçe karşılığı o dur.
+
+        return View(kurs);
     }
 }

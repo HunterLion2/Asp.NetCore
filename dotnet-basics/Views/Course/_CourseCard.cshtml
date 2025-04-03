@@ -5,6 +5,7 @@
             <img src="~/img/@Model.Image" alt="" class="card-img-top">
             <h5 class="card-title">@Model.Title</h5>
             <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit, quia.</p>
-            <a href="#" class="btn btn-outline-danger">İncele</a>
+            <a asp-controller="Course" asp-action= "Details" asp-route= "@Model.Id" class="btn btn-outline-danger">İncele</a>
+            @* <a href="/Course/Details/@Model.Id" class="btn btn-outline-danger">İncele</a>  Buradaki hrefte ki yazım şekli ile yukarıdaki aynı işi görür. *@
         </div>
     </div>
