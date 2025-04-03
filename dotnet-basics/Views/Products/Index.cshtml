@@ -4,7 +4,7 @@
 
 <div class="d-flex justify-content-between align-items-center">
     <h1 class="h3 mb-3">Products</h1>
-    <a class="btn btn-outline-danger" asp-controller="Products" asp-action="Lıst">Tüm Ürünler</a>
+    <a class="btn btn-outline-danger" asp-controller="Products" asp-action="List">Tüm Ürünler</a>
 </div>
 
 <!-- Burada ki foreach değerinde (in) değerinden sonra yazılan değer buraya çağırdığımız model üzerinden gelen bilgilerdir. -->
@@ -17,7 +17,7 @@
         {
             <div class="col-md-3">
                 <div class="card shadow rounded-4 p-2">
-                    <img class="" style="" src="~/img/@kurs.Image" alt="Ürün Resmi">
+                    <img class="" style="object-fit: cover;" src="~/img/@kurs.Image" alt="Ürün Resmi">
                     <h1 class="my-2 card-title">@kurs.Title</h1>
                     <p class="my-2">@kurs.Description</p>
                     <a class="btn btn-outline-danger text-center" asp-controller="Products" asp-action="Details"
@@ -25,7 +25,5 @@
                 </div>
             </div>
         }
-
-
     }
 </div>
